@@ -1,0 +1,11 @@
+html,
+body,
+#root,
+#app {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  -webkit-tap-highlight-color: rgba(255,255,255,0.5);
+}
