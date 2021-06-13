@@ -48,9 +48,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new WebpackManifestPlugin(),
     new CopyPlugin({
-      patterns: [
-        { context: 'client', from: 'public/index.css', to: 'index.css' },
-      ],
+      patterns: [{ context: 'client', from: 'public/assets', to: '' }],
     }),
   ],
 }
