@@ -23,15 +23,8 @@ const ScreenContainer = styled_components_1.default.div `
   height: 100vh;
   width: 100vw;
 `;
-const FillContainer = styled_components_1.default.div `
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-`;
 const Component = () => {
-    return react_1.default.createElement(ScreenContainer, null, "TEST TEXT hi hi hi");
+    return react_1.default.createElement(ScreenContainer, null, "Hello World!");
 };
 const App = () => react_1.default.createElement(Component, null);
 exports.App = App;

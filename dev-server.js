@@ -27,10 +27,10 @@ let node
 
 compiler.hooks.watchRun.tap('Dev', (compiler) => {
   console.log(`Compiling ${compiler.name} ...`)
-  if (compiler.name === 'server' && node) {
-    node.kill()
-    node = undefined
-  }
+  // if (compiler.name === 'server' && node) {
+  //   node.kill()
+  //   node = undefined
+  // }
 })
 
 node = spawn('node', ['--inspect', path.join(__dirname, 'dist/server.js')], {

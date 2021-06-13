@@ -9,16 +9,8 @@ const ScreenContainer = styled.div`
   width: 100vw;
 `
 
-const FillContainer = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-`
-
 const Component: React.FC = () => {
-  return <ScreenContainer>TEST TEXT hi hi hi</ScreenContainer>
+  return <ScreenContainer>Hello World!</ScreenContainer>
 }
 
 export const App: React.FC = () => <Component />

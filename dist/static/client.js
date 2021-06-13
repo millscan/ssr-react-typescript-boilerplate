@@ -34792,12 +34792,11 @@ var __makeTemplateObject = (undefined && undefined.__makeTemplateObject) || func
 
 
 var ScreenContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100vh;\n  width: 100vw;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100vh;\n  width: 100vw;\n"])));
-var FillContainer = styled_components__WEBPACK_IMPORTED_MODULE_1__.default.div(templateObject_2 || (templateObject_2 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 100%;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100%;\n  width: 100%;\n"])));
 var Component = function () {
-    return react__WEBPACK_IMPORTED_MODULE_0__.createElement(ScreenContainer, null, "TEST TEXT hi hi hi");
+    return react__WEBPACK_IMPORTED_MODULE_0__.createElement(ScreenContainer, null, "Hello World!");
 };
 var App = function () { return react__WEBPACK_IMPORTED_MODULE_0__.createElement(Component, null); };
-var templateObject_1, templateObject_2;
+var templateObject_1;
 
 
 /***/ }),
